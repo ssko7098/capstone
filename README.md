@@ -1,29 +1,32 @@
 # TEMPLATE PROJECT
 
-**Project Title:**  <project title>  
-**Project Team:** <team code and description>
-**Tutor:** <tutor's name here> (<tutor's email here>)
+**Project Title:**  P02 - Using AI to enhance construction site safety and detect if safety equipment is being used correctly
+**Project Team:** SOFT3888_TU08_01
+**Tutor:** Joshua Pople (joshua.pople@sydney.edu.au)
 
 ## Project Description
 
-`insert a project description here`
+This project aims to leverage AI to enhance safety on construction sites by detecting whether workers are using safety equipment correctly. 
+The project involves developing a computer vision system capable of recognizing various safety gear, such as helmets, vests, and gloves, 
+and ensuring they are worn properly by workers. The goal is to reduce accidents and ensure compliance with safety regulations.
 
 ## Team Members
 
 | Name | Discord Name | Bitbucket Username | Primary Email |
 |--|--|--|--|
-| Full Name Person 1 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
-| Full Name Person 2 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
-| Full Name Person 3 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
-| Full Name Person 4 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
-| Full Name Person 5 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
-| Full Name Person 6 | CPxx-First Last | @username | unik1234@uni.sydney.edu.au |
+| Sebastian Skontos | P02C Sebastian Skontos | ssko7098 | ssko7098@uni.sydney.edu.au |
+| Daniel Geng | CPxx-First Last | @username | rgen7310@uni.sydney.edu.au |
+| Ryan Tanevski | P02C Ryan Tanevski | @username | rtan4242@uni.sydney.edu.au |
+| Dmitry Khachumov | CPxx-First Last | @username | dkha5410@uni.sydney.edu.au |
+| Otavio Pereira Wood | CPxx-First Last | @username | oper7179@uni.sydney.edu.au |
+| Ethan Acevski | P02C Ethan Acevski | @username | eace4343@uni.sydney.edu.au |
+| Nicko Heberden | P02C-Nicko Heberden | @username | nheb2621@uni.sydney.edu.au |
 
 ## Client Information
 
 | Name | Email | Username | Phone |
 |--|--|--|--|
-| Full Name | client.email@domain.com | @username | +61 xxx xxx xxx |
+| Cian Byrne | cian.byrne@coliemore.com.au | wallarug | +61 xxx xxx xxx |
 
 ## Table of Contents
 
