@@ -17,6 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Mirror to Bitbucket
+        shell: bash
         env:
           BITBUCKET_USERNAME: ${{ secrets.BITBUCKET_USERNAME }}
           BITBUCKET_APP_PASSWORD: ${{ secrets.BITBUCKET_APP_PASSWORD }}
