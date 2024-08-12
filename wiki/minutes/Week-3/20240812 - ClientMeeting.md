@@ -30,28 +30,31 @@
 
 Meeting open at: 17:40 PM
 
-## Weekly Check-in Video
-
-`include links to all YouTube videos in this section for each team member`
-`remember to add these video links into a single playlist and to the other relevant pages in your report`
+## Weekly Team Check-in Video
 
 [YouTube](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=61sttFD6Xoa-ev1Y)
 
 
 ## Q&A
 
-`please list discussion items and questions here, with answers to questions`
 **Question: When will we be given access to the dataset of images provided by the client?**
 
 *Answer: Data sets to be released by end of date*
 
+
 **Question: What variant of the YOLOv8 model is in use now? Will we be given access to this?**
+
 *Answer: YOLOv8 Models (Mentioned YOLOv8 'Excel') can be downloaded on the internet. We are able to download ones that are pretrained by the client but they are not related to out project.*
 
+
 **Question: Is there anything we can do in the meantime to get a head start?**
+
 *Answer:*
+
 *1. Investigate open-source datasets. Roboflow is a good start, it has a lot of high quality datasets (look to find construction datasets)*
+
 *2. Follow the getting started with YOLO gude*
+
 *3. Can also explore YOLOv10 (supposibly better than YOLOv8)*
 
 
