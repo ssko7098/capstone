@@ -22,20 +22,19 @@
 
 ## Agenda
 
-* Item 1 - Video Summaries & Feedback
-* Item 2 - Challanges Discussion
-* Item 3 - Technical & Requirement Questions
-* Item 4 - Allocation of Tasks and outline of until next meeting
-* Item 5 - General Business
+* Item 1 - Weekly Team Check-in Video
+* Item 2 - Q&A
+* Item 3 - Sprint Plan
+* Item 4 - General Business
 
 Meeting open at: 17:40 PM
 
-## Weekly Team Check-in Video
+## Item 1: Weekly Team Check-in Video
 
 [YouTube](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=61sttFD6Xoa-ev1Y)
 
 
-## Q&A
+## Item 2: Q&A
 
 **Question: When will we be given access to the dataset of images provided by the client?**
 
@@ -59,7 +58,7 @@ Meeting open at: 17:40 PM
 
 
 
-## Sprint Plan
+## Item 3: Sprint Plan
 
 | Name | Unikey | Video Link |
 |--|--|--|
@@ -71,7 +70,7 @@ Meeting open at: 17:40 PM
 | Ethan Acevski | eace4343 | Finish the PyTorch tutorial up to MLP model and have a go at training it according to the MNIST dataset, Sync our GitHub with BitBucket to ensure that both the client and uni can see our progress |
 | Nicko Heberden | nheb2621 | Finish the PyTorch tutorial up to MLP model and have a go at training it according to the MNIST dataset |
 
-## Item 5 - General Business
+## Item 4 - General Business
 
 N/A
 
