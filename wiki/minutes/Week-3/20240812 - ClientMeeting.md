@@ -30,7 +30,7 @@
 
 Meeting open at: 17:40 PM
 
-## Item 1
+## Weekly Check-in Video
 
 `include links to all YouTube videos in this section for each team member`
 `remember to add these video links into a single playlist and to the other relevant pages in your report`
@@ -38,7 +38,7 @@ Meeting open at: 17:40 PM
 [YouTube](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=61sttFD6Xoa-ev1Y)
 
 
-## Item 2
+## Q&A
 
 `please list discussion items and questions here, with answers to questions`
 **Question: When will we be given access to the dataset of images provided by the client?**
@@ -56,9 +56,7 @@ Meeting open at: 17:40 PM
 
 
 
-## Item 4
-
-`please update this table and list all challenges that will be achieved in next week`
+## Sprint Plan
 
 | Name | Unikey | Video Link |
 |--|--|--|
@@ -72,7 +70,6 @@ Meeting open at: 17:40 PM
 
 ## Item 5 - General Business
 
-`any questions or comments not covered by the above sections`
 N/A
 
 
