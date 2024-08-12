@@ -59,12 +59,13 @@ Meeting open at: XX:XX PM
 
 | Name | Unikey | Video Link |
 |--|--|--|
-| Team Member 1 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
-| Team Member 2 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
-| Team Member 3 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
-| Team Member 4 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
-| Team Member 5 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
-| Team Member 6 | unik1234 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Sebastian Skontos | ssko7098 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Daniel Geng | rgen7310 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Ryan Tanevski | rtan4242 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Dmitry Khachumov | dkha5410 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Otavio Pereira Wood | oper7179 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Ethan Acevski | eace4343 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
+| Nicko Heberden | nheb2621 | Short List Item 1, Short List Item 2, Short List Item 3, etc |
 
 ## Item 5 - General Business
 
@@ -72,3 +73,4 @@ Meeting open at: XX:XX PM
 
 
 Meeting closed at:  XX:XX PM
+
