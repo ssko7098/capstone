@@ -21,6 +21,6 @@ jobs:
           BITBUCKET_USERNAME: ${{ secrets.BITBUCKET_USERNAME }}
           BITBUCKET_APP_PASSWORD: ${{ secrets.BITBUCKET_APP_PASSWORD }}
         run: |
-          git remote add bitbucket https://${BITBUCKET_USERNAME}:${BITBUCKET_APP_PASSWORD@bitbucket.org/soft3888_tu08_01_p02/soft3888_tu08_01_p02.git
+          git remote add bitbucket https://${BITBUCKET_USERNAME}:${BITBUCKET_APP_PASSWORD}@bitbucket.org/soft3888_tu08_01_p02/soft3888_tu08_01_p02.git
           git push bitbucket --all
           git push bitbucket --tags
