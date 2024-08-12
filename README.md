@@ -2,7 +2,7 @@
 
 **Project Title:**  P02 - Using AI to enhance construction site safety and detect if safety equipment is being used correctly
 **Project Team:** SOFT3888_TU08_01
-**Tutor:** Joshua Pople (joshua.pople@sydney.edu.au)
+**Tutor:** Joshua Pople (joshua.pople@sydney.edu.au) 
 
 ## Project Description
 
