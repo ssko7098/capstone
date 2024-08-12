@@ -1,10 +1,10 @@
 # Meeting Minutes
 
-**Date:** Friday 4 September 2020
+**Date:** Monday 12 August 2024
 
-**Time:** 6:00 PM
+**Time:** 17:40
 
-**Location:** Zoom Online Meeting
+**Location:** Discord
 
 **Attendees:**
 
