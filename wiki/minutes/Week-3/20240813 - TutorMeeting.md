@@ -1,8 +1,8 @@
 # Meeting Minutes
 
-**Date:** Friday 4 September 2020
+**Date:** Tuesday 13 August 2024
 
-**Time:** 8:30 PM
+**Time:** 08:30 AM
 
 **Location:** Zoom Online Meeting
 
@@ -60,4 +60,4 @@ Meeting open at: 08:30 PM
 
 * We have registered that our Project Plan & Roles Allocation Presentation is due next week (week 4)
 
-Meeting closed at:  08:45 PM
+Meeting closed at:  08:45 AM
