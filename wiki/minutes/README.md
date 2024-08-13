@@ -10,7 +10,7 @@ This page contains a list of all meetings conducted throughout the project.
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Kick-Off Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Kick-Off Meeting | 12/08/2024 | 17:40 PM | 17:50 PM | [Minutes]() |
 | Client Update (Start of Week) | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 | Client Update (End of Week) | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 
@@ -19,7 +19,15 @@ This page contains a list of all meetings conducted throughout the project.
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Initial Team Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Finalise Project Setup | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes]() |
+| Organise Client Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Project Work | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+
+## Tutor Meetings
+
+| Description | Date | Time Start | Time End | Minutes |
+|--|--|--|--|--|
+| Finalise Project Setup | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes]() |
 | Organise Client Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 | Project Work | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 
@@ -37,7 +45,7 @@ This page contains a list of all meetings conducted throughout the project.
 |--|--|--|--|--|
 | Lecture Wk 1 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 | Tutorial Wk 2 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 3 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Tutorial Wk 3 | 13/08/2024 | 08:00 AM | 10:00 AM | [Minutes]() |
 | Tutorial Wk 4 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 | Tutorial Wk 5 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
 | Tutorial Wk 6 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
