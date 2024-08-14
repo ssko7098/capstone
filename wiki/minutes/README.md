@@ -10,48 +10,24 @@ This page contains a list of all meetings conducted throughout the project.
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Kick-Off Meeting | 12/08/2024 | 17:40 PM | 17:50 PM | [Minutes]() |
-| Client Update (Start of Week) | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Client Update (End of Week) | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Week 3 Initial Meeting | 12/08/2024 | 17:40 PM | 17:50 PM | [Minutes](/wiki/minutes/Week-3/20240812-ClientMeeting.md) |
 
 
-## Official Team Meetings
+## Out-of-Tutorial Team Meetings
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Finalise Project Setup | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes]() |
-| Organise Client Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Project Work | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Week 2 Meeting | 11/08/2024 | 09:30 PM | 09:58 PM | [Minutes](/wiki/minutes/Week-2/2024.08.11%20-%20OutOfTutorialMeeting.md) |
 
 ## Tutor Meetings
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Finalise Project Setup | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes]() |
-| Organise Client Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Project Work | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-3/20240813-TutorMeeting.md) |
 
-## Additional Meetings
+## In-Tutorial Meetings
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Initial Team Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Organise Client Meeting | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Project Work | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-
-## Tutorials
-
-| Description | Date | Time Start | Time End | Minutes |
-|--|--|--|--|--|
-| Lecture Wk 1 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 2 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 3 | 13/08/2024 | 08:00 AM | 10:00 AM | [Minutes]() |
-| Tutorial Wk 4 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 5 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 6 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 7 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 8 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 9 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 10 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 11 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
-| Tutorial Wk 12 | XX/XX/2024 | XX:XX PM | XX:XX PM | [Minutes]() |
+| Tutorial Week 2 | 06/08/2024 | 08:00 AM | XX:XX PM | [Minutes](/wiki/minutes/Week-2/2024.08.06%20-%20Tutorial%20Minutes.md) |
+| Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-3/20240813-TutorialMeeting.md) |

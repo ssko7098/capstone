@@ -4,7 +4,7 @@
 
 **Time:** 09:30 
 
-**Location:** Zoom Online Meeting
+**Location:** University of Sydney
 
 **Attendees:**
 
@@ -26,16 +26,15 @@
 * Item 2 - What was achieved
 * Item 3 - (Action Items) Allocation of Tasks and outline of until next meeting
 
-Meeting open at: XX:XX PM
+Meeting open at: 09:30 AM
 
 ## Item 1 - Objective of meeting
 
-`why was the meeting called?  Was it just a collaboration / pair programming session?`
-`what work was planned to be done.`
 * Meeting was called to touch base regarding what is required for the upcoming week. This is vital as we want to finish our preparation before the client provides us with resources regarding training our models.
 
 Specific work that is required for the upcoming week includes:
-
+* Get BitBucket synced up with GitHub so that we only have to make one push each time.
+* Get the YOLOv8 models downloaded and start testing them out.
 
 
 ## Item 2 - What was achieved
