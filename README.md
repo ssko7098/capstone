@@ -28,17 +28,15 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 
 ## Table of Contents
 
-`TODO: rebuild links to correctly link on bitbucket`
-
-| Section | Link | Last Updated |
-|--|--|--|
-| Group Contract Weeks 2-5 | [Link](https://docs.google.com/document/d/18aAVpdywvQ0mdwcO19D_DLwmfNz0LkLy/edit?usp=sharing&ouid=103567359036304240364&rtpof=true&sd=true) | 10/08/2024 |
-| Meeting Minutes | [Link](wiki/minutes/README.md) | 15/08/2024 |
-| Weekly Update Videos | [Link](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=gKIbvhy45CFvZclD) | 14/08/2024 |
-| Assessment - Other Mini Group Reports | [Link]() | XX/XX/2024 |
-| Assessment - Individual Reports | [Link]() | XX/XX/2024 |
-| Assessment - First Project Report (Group) | [Link]() | XX/XX/2024 |
-| Assessment - Final Project Report (Group) | [Link]() | XX/XX/2024 |
-| Assessment - Final Individual Reports | [Link]() | XX/XX/2024 |
+| Section | Last Updated |
+|--|--|
+| Group Contract Weeks 2-5 | [10/08/2024](https://docs.google.com/document/d/18aAVpdywvQ0mdwcO19D_DLwmfNz0LkLy/edit?usp=sharing&ouid=103567359036304240364&rtpof=true&sd=true) |
+| Meeting Minutes | [15/08/2024](wiki/minutes/README.md) |
+| Weekly Update Videos | [14/08/2024](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=gKIbvhy45CFvZclD) |
+| Assessment - Other Mini Group Reports | [XX/XX/2024]() |
+| Assessment - Individual Reports | [XX/XX/2024]() |
+| Assessment - First Project Report (Group) | [XX/XX/2024]() |
+| Assessment - Final Project Report (Group) | [XX/XX/2024]() |
+| Assessment - Final Individual Reports | [XX/XX/2024]() |
 
 
