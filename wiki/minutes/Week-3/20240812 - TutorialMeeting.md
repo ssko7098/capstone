@@ -18,7 +18,7 @@
 
 **Applogies**
 
-* Team Member 7 (Otavio Pereira Wood) - Illness
+* Team Member 6 (Otavio Pereira Wood) - Illness
 
 ## Agenda
 
