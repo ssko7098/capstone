@@ -1,0 +1,61 @@
+# Meeting Minutes
+
+**Date:** Thursday 15 August 2024
+
+**Time:** 20:00
+
+**Location:** Zoom Online Meeting
+
+**Attendees:**
+
+* Client Name (Client)
+* Team Member 1 (Sebastian Skontos)
+* Team Member 2 (Daniel Geng)
+* Team Member 3 (Ryan Tanevski)
+* Team Member 4 (Dmitry Khachumov)
+* Team Member 5 (Nicko Heberden)
+* Team Member 6 (Otavio Pereira Wood)
+
+**Applogies**
+
+* Team Member 7 (Ethan Acevski) - Away
+
+## Agenda
+
+* Item 1 - Objective of meeting
+* Item 2 - What was achieved
+* Item 3 - (Action Items) Allocation of Tasks and outline of until next meeting
+
+Meeting open at: 08:00 PM
+
+## Item 1 - Objective of meeting
+
+* Second team meeting for the week (requirement).
+* Discuss YOLOv8 experimentation findings 
+* Plan the presentation slides for *Week4 Project Plan & Roles Allocation Presentation*
+
+
+## Item 2 - What was achieved
+* All members have made more progress with the Udacity. Progress has slowed while we start exploring YOLOv8 for training our mock data.
+* 3/7 members have started looking into YOLOv8. No results were presented as we were still getting familiar with the library.
+* We have fixed and formatted all Week-3 minutes. In the process of transitioning Week-2 minutes onto our repository.
+
+
+## Item 3 - (Action Items) Allocation of Tasks and outline of until next meeting
+
+
+| Name | Unikey | Action Items |
+|--|--|--|
+| Sebastian Skontos | ssko7098 | YOLOv8 experimentation and testing, presentation work |
+| Daniel Geng | rgen7310 | YOLOv8 experimentation and testing, presentation work |
+| Ryan Tanevski | rtan4242 | YOLOv8 experimentation and testing, presentation work |
+| Dmitry Khachumov | dkha5410 |YOLOv8 experimentation and testing, presentation work |
+| Otavio Pereira Wood | oper7179 | YOLOv8 experimentation and testing, presentation work |
+| Ethan Acevski | eace4343 | YOLOv8 experimentation and testing, presentation work, get week 2 minutes onto GitHub |
+| Nicko Heberden | nheb2621 | YOLOv8 experimentation and testing, Gantt chart, presentation work |
+
+## Item 4 - General Business
+* Would like a definitative date from the client regarding when we receive our data set. We are falling behind prespecified milestones while we wait for this.
+
+
+Meeting closed at:  08:45 PM
