@@ -8,13 +8,11 @@
 
 **Attendees:**
 
-* Client Name (Client)
-* Team Member 1 (Team Member)
-* Team Member 2 (Team Member)
-* Team Member 3 (Team Member)
-* Team Member 4 (Team Member)
-* Team Member 5 (Team Member)
-
+* Team Member 1 (Sebastian Skontos)
+* Team Member 2 (Daniel Geng)
+* Team Member 3 (Ryan Tanevski)
+* Team Member 4 (Dmitry Khachumov)
+* Team Member 5 (Nicko Heberden)
 **Applogies**
 
 * Team Member 6 (Team Member) - __reason__
