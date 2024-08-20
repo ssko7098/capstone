@@ -43,7 +43,7 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 
 ## Version Releases
 
-| Model | Version | Link |
-|--|--|--|
-| Initial Model - YOLOv8s | v1.0.0 | [Link](/model_training/model1_train.py) |
+| Model | Version | Link | Weights |
+|--|--|--|--|
+| Initial Model - YOLOv8s | v1.0.0 | [Link](/model_training/model1_train.py) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) |
 
