@@ -40,3 +40,10 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 | Assessment - Final Individual Reports | [XX/XX/2024]() |
 
 
+
+## Version Releases
+
+| Model | Version | Link |
+|--|--|--|
+| Initial Model - YOLOv8s | v1.0.0 | [Link](/model_training/model1_train.py) |
+
