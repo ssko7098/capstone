@@ -27,6 +27,7 @@ This page contains a list of all meetings conducted throughout the project.
 |--|--|--|--|--|
 | Tutorial Week 2 | 06/08/2024 | 08:00 AM | 08:46 AM | [Minutes](/wiki/minutes/Week-2/2024.08.06%20-%20Tutorial%20Minutes.md) |
 | Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-3/20240813-TutorMeeting.md) |
+| Tutorial Week 4 | 20/08/2024 | 09:30 AM | 9:40 AM | [Minutes](/wiki/minutes/Week-4/20240820-TutorMeeting.md) |
 
 ## In-Tutorial Meetings
 
@@ -34,3 +35,4 @@ This page contains a list of all meetings conducted throughout the project.
 |--|--|--|--|--|
 | Tutorial Week 2 | 06/08/2024 | 08:00 AM | XX:XX PM | [Minutes](/wiki/minutes/Week-2/2024.08.06%20-%20Tutorial%20Minutes.md) |
 | Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-3/20240813-TutorialMeeting.md) |
+| Tutorial Week 4 | 20/08/2024 | 09:40 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-4/20240820-TutorialMeeting.md) |
