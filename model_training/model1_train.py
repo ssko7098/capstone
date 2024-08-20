@@ -4,6 +4,8 @@ from torch.utils.data import Subset
 # load a pretrained model (recommended for training)
 model = YOLO('yolov8s.pt')
 
+# ensure the data is loaded into a folder named 'safety_rd_v1' before
+# running these steps, otherwise there will be an error.
 results = model.train(data="safety_rd_v1/data.yaml", 
                       epochs=3, 
                       imgsz=640)
