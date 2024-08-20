@@ -43,7 +43,7 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 
 ## Version Releases
 
-| Model | Version | Python Script | Weights |
-|--|--|--|--|
-| Initial Model - YOLOv8s | v1.0.0 | [View Python Script](/model_training/model1_train.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) |
+| Model | Version | Python Script | Weights | Notes |
+|--|--|--|--|--|
+| Initial Model - YOLOv8s | v1.0.0 | [View Python Script](/model_training/model1_train.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
 
