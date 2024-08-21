@@ -48,3 +48,30 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Common dataset formats
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pkl
+
+# Mac system files
+.DS_Store
