@@ -46,5 +46,6 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 | Model | Version | Python Script | Weights | Notes |
 |--|--|--|--|--|
 | Seb - YOLOv8s | v1.0.0 | [View](/model_training/model1_train.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
-| Nick - YOLOv8n | v1.0.0 | [View](/model_training/Nicko-Model-1.ipynb) | [Download]() |  |
+| Nick - YOLOv8n | v1.0.0 | [View](/model_training/Nicko-Model-1.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/EeOcqku4sdtNoEKYfIk9R_IBGczHtVI7L-U2qC26D96x1g?e=xpB7t3) | Trained using open-source dataset. High probability detecting most classes (including people -90% accuracy). Difficulty detecting: bare-arms and non-helmet, |
+
 
