@@ -1,6 +1,6 @@
 # Meeting Minutes
 
-**Date:** Tuesday 13 August 2024
+**Date:** Tuesday 20 August 2024
 
 **Time:** 09:40 
 

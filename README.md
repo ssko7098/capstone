@@ -31,7 +31,7 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 | Section | Last Updated |
 |--|--|
 | Group Contract Weeks 2-5 | [10/08/2024](https://docs.google.com/document/d/18aAVpdywvQ0mdwcO19D_DLwmfNz0LkLy/edit?usp=sharing&ouid=103567359036304240364&rtpof=true&sd=true) |
-| Meeting Minutes | [20/08/2024](wiki/minutes/README.md) |
+| Meeting Minutes | [22/08/2024](wiki/minutes/README.md) |
 | Weekly Update Videos | [14/08/2024](https://youtube.com/playlist?list=PL2wiUopS5j4HkuyZHSTeXcRwj7CU5L0pL&si=gKIbvhy45CFvZclD) |
 | Assessment - Other Mini Group Reports | [XX/XX/2024]() |
 | Assessment - Individual Reports | [XX/XX/2024]() |
