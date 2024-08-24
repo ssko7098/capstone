@@ -47,5 +47,6 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 |--|--|--|--|--|
 | Seb - YOLOv8s | v1.0.0 | [View](/model_training/Seb-Model-1.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
 | Nick - YOLOv8n | v1.0.0 | [View](/model_training/Nicko-Model-1.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/EeOcqku4sdtNoEKYfIk9R_IBGczHtVI7L-U2qC26D96x1g?e=xpB7t3) | Trained using open-source dataset. High probability detecting most classes (including people - normalised 90% accuracy). Difficulty detecting: bare-arms and non-helmet. |
+| Otavio - YOLOv8n | v1.0.0 | [View](/model_training/Otavio-Model-1.ipynb) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/oper7179_uni_sydney_edu_au/EcNysiCF_kZPuSIp-UPWrU4BYlF3YYwkj3_yfC9xhycVjA?e=RoSePV) | Trained using open-source dataset. High probability detecting most classes. Great success of >90% at detecting people and shoes, but struggled with non-helment (~70%), and especially bare-arms (~44%). Remainder of results fell between high 70s and 80s. |
 
 
