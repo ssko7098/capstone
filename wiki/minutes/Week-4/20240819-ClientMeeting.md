@@ -13,10 +13,10 @@
 * Team Member 3 (Ryan Tanevski)
 * Team Member 4 (Dmitry Khachumov)
 * Team Member 6 (Nicko Heberden)
+* Team Member 5 (Ethan Acevski)
 
 **Applogies**
 * Team Member 2 (Daniel Geng) - Work shift
-* Team Member 5 (Ethan Acevski) - Work shift
 * Team Member 7 (Otavio Wood) - Work shift
 
 
