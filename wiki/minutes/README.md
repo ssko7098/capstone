@@ -11,8 +11,8 @@ This page contains a list of all meetings conducted throughout the project.
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
 | Week 3 Initial Meeting | 12/08/2024 | 17:40 PM | 17:50 PM | [Minutes](/wiki/minutes/Week-3/20240812-ClientMeeting.md) |
-| Week 4 Client Meeting | 12/08/2024 | 18:20 PM | 18:35 PM | [Minutes](/wiki/minutes/Week-4/20240819-ClientMeeting.md) |
-
+| Week 4 Client Meeting | 19/08/2024 | 18:20 PM | 18:35 PM | [Minutes](/wiki/minutes/Week-4/20240819-ClientMeeting.md) |
+| Week 5 Client Meeting | 26/08/2024 | 16:00 PM | 16:20 PM | [Minutes](/wiki/minutes/Week-5/20240826-ClientMeeting.md) |
 
 ## Out-of-Tutorial Team Meetings
 
