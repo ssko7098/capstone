@@ -35,8 +35,21 @@ Meeting open at: 16:00
 
 **Question: What can the team do to find more distinct roles**
 
-*Answer: Everyone should be able to train a model. Some members can have a go at training YOLOv10 model instead and assess results to see if the model is better than YOLOv8. Different members can work on different datasets to get a wide range of AI training. We can have decdicated members responsible for augmenting datasets. This includes blurring, flipping rotating, zooming, etc. on images to provide more data to train on. *
+*Answer: Everyone should be able to train a model. Some members can have a go at training YOLOv10 model instead and assess results to see if the model is better than YOLOv8. Different members can work on different datasets to get a wide range of AI training. We can have decdicated members responsible for augmenting datasets. This includes blurring, flipping rotating, zooming, etc. on images to provide more data to train on. 
 
+User the model outputs liek average precision score to see if more training will actually improve the model. Message Calvin on discord if you are having trouble understanding the results. Try using bigger YOLO models for better results, like YOLOv10.*
+
+**Question: Should we segment models into day and night models?**
+*Yes excellent idea. Spoke to AI experts and they said that this is the standard and a must for accuracy.*
+
+**Question: Will ISC be used for deployment?**
+
+*No, ISC is just for training. The model will be deployed on Cian's own system.*
+
+**Question: How can we better diversify our roles?**
+
+*Perhaps 3 small teams:
+1 for Data, researching, collating, reformatting to be used in yolo formats.No labelled data set has been provided so it will be a big problem going forward unless we find them open source. 1 for Augmentation: Doubling, tripling, the size of data through flipping, rotating, zooming, etc etc !! Big job. 1 for Training and analysing results, data labelling*
 
 **Question: Have other teams got isc working**
 
@@ -61,7 +74,7 @@ Meeting open at: 16:00
 
 * Look into getting our own annotations and data for images with construction gear.
 
-* By Wednesday Cian would like trained models going able to identify people. We must gain some data relating to safety equipment metrics.
+* By Wednesday Cian would like trained models going able to identify people. We must gain some data relating to safety equipment metrics. Cian would like a working pipeline and outputted results by Wednesday.
 
 * Look at model outputs to see if more training can make the model better. If so, train more. Send charts and outputs to isc chat so the technical can identify this if we are struggling. 
 
