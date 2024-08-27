@@ -43,13 +43,13 @@
 
 | Name | Unikey | Action Items |
 |--|--|--|
-| Sebastian Skontos | ssko7098 | ensure that proof of role is tracked (eg: screenshots), continue to train model with different data sets |
-| Daniel Geng | rgen7310 | ensure that proof of role is tracked (eg: screenshots),  |
-| Ryan Tanevski | rtan4242 | ensure that proof of role is tracked (eg: screenshots), annotate data from cleint and create model |
-| Dmitry Khachumov | dkha5410 | ensure that proof of role is tracked (eg: screenshots), annotate data from cleint and create model |
-| Otavio Pereira Wood | oper7179 | ensure that proof of role is tracked (eg: screenshots), annotate data from cleint and create model |
-| Ethan Acevski | eace4343 | ensure that proof of role is tracked (eg: screenshots), annotate data from cleint and create model |
-| Nicko Heberden | nheb2621 | ensure that proof of role is tracked (eg: screenshots), continue to train model with different data sets |
+| Sebastian Skontos | ssko7098 | ensure that proof of role is tracked (eg: screenshots) for individual report, try and intergrate YOLO with ISC |
+| Daniel Geng | rgen7310 | ensure that proof of role is tracked (eg: screenshots), try and intergrate YOLO with ISC |
+| Ryan Tanevski | rtan4242 | ensure that proof of role is tracked (eg: screenshots), augmenting current datasets |
+| Dmitry Khachumov | dkha5410 | ensure that proof of role is tracked (eg: screenshots), for individual report. Researching open-source datasets for further developement |
+| Otavio Pereira Wood | oper7179 | ensure that proof of role is tracked (eg: screenshots), for individual report, augmenting current datasets |
+| Ethan Acevski | eace4343 | ensure that proof of role is tracked (eg: screenshots) for individual report, Researching open-source datasets for further developement |
+| Nicko Heberden | nheb2621 | ensure that proof of role is tracked (eg: screenshots) for individual report, try and intergrate YOLO with ISC|
 
 ## Item 4 - General Business
 
