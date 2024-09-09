@@ -16,7 +16,7 @@
 * Team Member 6 (Ethan Acevski)
 
 
-**Applogies**
+**Apologies**
 
 * Team Member 6 (Otavio Pereira Wood) - Illness
 

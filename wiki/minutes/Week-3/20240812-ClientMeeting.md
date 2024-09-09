@@ -16,7 +16,7 @@
 * Team Member 5 (Ethan Acevski)
 * Team Member 6 (Nicko Heberden)
 
-**Applogies**
+**Apologies**
 
 * Team Member 7 (Otavio Wood) - Illness
 
