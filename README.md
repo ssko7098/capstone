@@ -43,23 +43,25 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 
 ## Version Releases
 ### YOLOv8s
-| Model | Version | Python Script | Dataset | Weights | Notes |
-|--|--|--|--|--|--|
-| Seb Model 1 | v1.0.0 | [View](model_training/yolov8s/seb-model-1/seb-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
+| Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
+|--|--|--|--|--|--|--|
+| Seb Model 1 | v1.0.0 | [View](model_training/yolov8s/seb-model-1/seb-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | [View]() | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
 
 ### YOLOv8n
-| Model | Version | Python Script | Dataset | Weights | Notes |
-|--|--|--|--|--|--|
-| Nick Model 1 | v1.0.0 | [View](model_training/yolov8n/nicko-model-1/nicko-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/EeOcqku4sdtNoEKYfIk9R_IBGczHtVI7L-U2qC26D96x1g?e=xpB7t3) | Trained using open-source dataset. High probability detecting most classes (including people - normalised 90% accuracy). Difficulty detecting: bare-arms and non-helmet. |
-| Otavio Model 1 | v1.0.0 | [View](model_training/yolov8n/otavio-model-1/otavio-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/oper7179_uni_sydney_edu_au/EcNysiCF_kZPuSIp-UPWrU4BYlF3YYwkj3_yfC9xhycVjA?e=RoSePV) | Trained using open-source dataset. High probability detecting most classes. Great success of >90% at detecting people and shoes, but struggled with non-helment (~70%), and especially bare-arms (~44%). Remainder of results fell between high 70s and 80s. |
-| Seb Model 2 | v1.0.0 | [View](model_training/yolov8n/seb-model-2/seb-model-2.py) | fmg_data2 | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/EaDTFjmQIhVCrwj6wdSA1SABvlqnRweiH815twrWVovzZw?e=ElDYwE) | Trained using the fmg_data_2 dataset using images from the actual site. Achieved 82% normalized accuracy for detecting people. |
-| Nicko Model 2 | v2.0.0 | [View](model_training/yolov8n/nicko-model-2/nicko-model-2.py) | fmg_data | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/ESSfuFbsNMxMo-1CRXtxDTEB9RAWboOxow-4IJF69oQnKw?e=PWJWO2) | Trained on Strong Compute CPU's using the fmg_data dataset. Achieved 88% normalized accuracy when detecting people. |
+| Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
+|--|--|--|--|--|--|--|
+| Nick Model 1 | v1.0.0 | [View](model_training/yolov8n/nicko-model-1/nicko-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/EeOcqku4sdtNoEKYfIk9R_IBGczHtVI7L-U2qC26D96x1g?e=xpB7t3) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EZrskR_0N9RHl6GmgRe41dgBdiM9D18Zq34Xm7Y0p50Xzg?e=LDPElz) | Trained using open-source dataset. High probability detecting most classes (including people - normalised 90% accuracy). Difficulty detecting: bare-arms and non-helmet. |
+| Otavio Model 1 | v1.0.0 | [View](model_training/yolov8n/otavio-model-1/otavio-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/oper7179_uni_sydney_edu_au/EcNysiCF_kZPuSIp-UPWrU4BYlF3YYwkj3_yfC9xhycVjA?e=RoSePV) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EaILQV1-mP9FirQ8R9AekuoBI6DA3NOeb6mMfZk2P6Mbqw?e=Yrr11T) | Trained using open-source dataset. High probability detecting most classes. Great success of >90% at detecting people and shoes, but struggled with non-helment (~70%), and especially bare-arms (~44%). Remainder of results fell between high 70s and 80s. |
+| Seb Model 2 | v1.0.0 | [View](model_training/yolov8n/seb-model-2/seb-model-2.py) | fmg_data2 | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/EaDTFjmQIhVCrwj6wdSA1SABvlqnRweiH815twrWVovzZw?e=ElDYwE) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EeTP-dYUz4hEg3IxaFJvmJcBI0RgH47rAVLOKApd_YSjXA?e=2A2CkR) | Trained using the fmg_data_2 dataset using images from the actual site. Achieved 82% normalized accuracy for detecting people. |
+| Nicko Model 2 | v2.0.0 | [View](model_training/yolov8n/nicko-model-2/nicko-model-2.py) | fmg_data | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/ESSfuFbsNMxMo-1CRXtxDTEB9RAWboOxow-4IJF69oQnKw?e=PWJWO2) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EVFwLqjwj-dOtZG5wV-UNgYBdJkCcvJCoS5vUZpV4lj6QA?e=rR3rRT) | Trained on Strong Compute CPU's using the fmg_data dataset. Achieved 88% normalized accuracy when detecting people. |
 
 ### YOLOv8m
-| Model | Version | Python Script | Dataset | Weights | Notes |
-|--|--|--|--|--|--|
-| Nicko Model 3 | v1.0.0 | [View](model_training/yolov8m/nicko-model-3/nicko-model-3.py) | fmg_data |[Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/Ee6LvIjE9ohJrdNtMHDpRA0B2MkoZ4tuikwGm11E_8j5YA?e=skIDGC) | The initial YOLOv8m model achieved a 78% probability in detecting people. However, when tested on Cian's external images, the model only detected cranes, indicating potential issues with generalisation to unseen data. |
+| Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
+|--|--|--|--|--|--|--|
+| Nicko Model 3 | v1.0.0 | [View](model_training/yolov8m/nicko-model-3/nicko-model-3.py) | fmg_data |[Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/Ee6LvIjE9ohJrdNtMHDpRA0B2MkoZ4tuikwGm11E_8j5YA?e=skIDGC) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EXibqUfDnO5IjZ6lJ5BwqEgB24Hq3mTpGvoQX8kheda2MQ?e=5P9vJZ) | The initial YOLOv8m model achieved a 78% probability in detecting people. However, when tested on Cian's external images, the model only detected cranes, indicating potential issues with generalisation to unseen data. |
 
 ## Model Inference
-Please follow the [Model Inference](model-inference/model_inference.ipynb) guide.
-Models are to be downloaded from above.
+Please follow the [Model Inference](test/model-inference/model_inference.ipynb) guide.
+Models are to be downloaded from the above releases.
+
+An image set provided by Cian can be found [here](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/nheb2621_uni_sydney_edu_au/EjdFBfYNE1dGjMsXUitEmf4BXxMpZs-qUwxqc_Fd7BuaPg?e=gS0XcN)
