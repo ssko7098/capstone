@@ -61,5 +61,5 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 | Nicko Model 3 | v1.0.0 | [View](model_training/yolov8m/nicko-model-3/nicko-model-3.py) | fmg_data |[Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/Ee6LvIjE9ohJrdNtMHDpRA0B2MkoZ4tuikwGm11E_8j5YA?e=skIDGC) | The initial YOLOv8m model achieved a 78% probability in detecting people. However, when tested on Cian's external images, the model only detected cranes, indicating potential issues with generalisation to unseen data. |
 
 ## Model Inference
-Please follow the [Model Inference](model-inference/model_inference.ipynb) guide.
-Models are to be downloaded from above.
+Please follow the [Model Inference](test/model-inference/model_inference.ipynb) guide.
+Models are to be downloaded from the above releases.
