@@ -62,4 +62,4 @@ This project aims to leverage AI to enhance safety on construction sites by dete
 
 ## Model Inference
 Please follow the [Model Inference](model-inference/model_inference.ipynb) guide.
-Models are to be downloaded from here.
+Models are to be downloaded from above.
