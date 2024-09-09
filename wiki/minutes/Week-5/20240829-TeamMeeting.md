@@ -16,7 +16,7 @@
 * Team Member 7 (Otavio Pereira Wood)
 
 
-**Applogies**
+**Apologies**
 * Team Member 2 (Daniel Geng)
 
 ## Agenda

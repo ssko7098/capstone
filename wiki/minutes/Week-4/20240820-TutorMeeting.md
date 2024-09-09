@@ -17,7 +17,7 @@
 * Team Member 6 (Ethan Acevski)
 * Team Member 7 (Otavio Wood)
 
-**Applogies**
+**Apologies**
 
 ## Agenda
 

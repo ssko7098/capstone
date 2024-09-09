@@ -16,7 +16,7 @@
 * Team Member 6 (Nicko Heberden)
 * Team Member 7 (Otavio Wood)
 
-**Applogies**
+**Apologies**
 * Team Member 1 (Sebastian Skontos)
 
 
