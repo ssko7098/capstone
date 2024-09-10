@@ -8,6 +8,11 @@
 
 This project aims to leverage AI to enhance safety on construction sites by detecting whether workers are using safety equipment correctly. The project involves developing a computer vision system capable of recognizing various safety gear, such as helmets, vests, and gloves, and ensuring they are worn properly by workers. The goal is to reduce accidents and ensure compliance with safety regulations.
 
+## Coding Style
+
+Training scripts are to follow the PEP-8 style guide for python code. This is done to ensure consistency in the repository.
+
+
 ## Team Members
 
 | Name | Discord Name | Bitbucket Username | Primary Email |
