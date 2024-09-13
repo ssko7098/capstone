@@ -18,7 +18,6 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | Name | Discord Name | Bitbucket Username | Primary Email |
 |--|--|--|--|
 | Sebastian Skontos | P02C Sebastian Skontos | ssko7098 | <ssko7098@uni.sydney.edu.au> |
-| Daniel Geng | P02C Daniel Geng | abacus7491 | <rgen7310@uni.sydney.edu.au> |
 | Ryan Tanevski | P02C Ryan Tanevski | p02ryantanevski | <rtan4242@uni.sydney.edu.au> |
 | Dmitry Khachumov | P02C Dmitry Khachumov | dmitrykhachumov_06339 | <dkha5410@uni.sydney.edu.au> |
 | Otavio Pereira Wood | P02C Otavio Wood | oper7179 | <oper7179@uni.sydney.edu.au> |
@@ -38,11 +37,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | Group Contract Weeks 2-5 | [10/08/2024](https://docs.google.com/document/d/18aAVpdywvQ0mdwcO19D_DLwmfNz0LkLy/edit?usp=sharing&ouid=103567359036304240364&rtpof=true&sd=true) |
 | Meeting Minutes | [10/09/2024](wiki/minutes/README.md) |
 | User Stories | [22/08/2024](wiki/user-stories.md) |
-| Assessment - Other Mini Group Reports | [XX/XX/2024]() |
-| Assessment - Individual Reports | [XX/XX/2024]() |
-| Assessment - First Project Report (Group) | [XX/XX/2024]() |
-| Assessment - Final Project Report (Group) | [XX/XX/2024]() |
-| Assessment - Final Individual Reports | [XX/XX/2024]() |
+| 1st Client Deployment Feedback | [13/09/2024](/wiki/1st%20Client%20Deployment%20Feedback.md) |
 
 
 
