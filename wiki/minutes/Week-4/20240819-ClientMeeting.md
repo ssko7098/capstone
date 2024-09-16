@@ -15,7 +15,7 @@
 * Team Member 6 (Nicko Heberden)
 * Team Member 5 (Ethan Acevski)
 
-**Applogies**
+**Apologies**
 * Team Member 2 (Daniel Geng) - Work shift
 * Team Member 7 (Otavio Wood) - Work shift
 

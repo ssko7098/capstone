@@ -17,7 +17,7 @@
 * Team Member 7 (Otavio Pereira Wood)
 
 
-**Applogies**
+**Apologies**
 
 
 ## Agenda

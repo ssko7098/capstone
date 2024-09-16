@@ -12,12 +12,12 @@
 * Team Member 3 (Ryan Tanevski)
 * Team Member 4 (Dmitry Khachumov)
 * Team Member 5 (Nicko Heberden)
+* Team Member 6 (Ethan Acevski)
 * Team Member 7 (Otavio Pereira Wood)
 
 
-**Applogies**
+**Apologies**
 * Team Member 2 (Daniel Geng)
-* Team Member 6 (Ethan Acevski)
 
 ## Agenda
 
