@@ -25,7 +25,7 @@ Meeting open at: 08:30 AM
 
 ## Item 1 - Assignment Overview
 Tutor remonded us of the following assignments:
-* Next week we have the week 9
+* Next week we have the week 9 presentation. Tutor told us to put a slide at the end to display who did what. 
 * Nothing due to week 12 after that
 * Second individual report due week 13
 
@@ -34,4 +34,4 @@ Tutor remonded us of the following assignments:
 
 
 
-Meeting closed at:  09:00 AM
+Meeting closed at:  08:45 AM
