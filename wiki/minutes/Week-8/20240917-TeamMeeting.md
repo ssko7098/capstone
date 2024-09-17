@@ -1,6 +1,6 @@
 # Meeting Minutes
 
-**Date:** Tuesday 10 September 2024
+**Date:** Tuesday 17 September 2024
 
 **Time:** 08:45 AM
 
@@ -39,4 +39,4 @@ Meeting open at: 09:00 AM
 Everyone needs to source some datasets for the next training phase of the project. Discussed also training another model before the client deployment which we can use for the next stage of the project.
 
 
-Meeting closed at:  09:00 AM
+Meeting closed at:  09:10 AM

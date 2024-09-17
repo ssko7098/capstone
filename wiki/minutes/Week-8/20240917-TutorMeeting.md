@@ -1,8 +1,8 @@
 # Meeting Minutes
 
-**Date:** Tuesday 10 September 2024
+**Date:** Tuesday 17 September 2024
 
-**Time:** 8:53 AM
+**Time:** 8:30 AM
 
 **Location:** University of Sydney
 
