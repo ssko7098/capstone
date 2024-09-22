@@ -38,6 +38,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | Meeting Minutes | [10/09/2024](wiki/minutes/README.md) |
 | User Stories | [22/08/2024](wiki/user-stories.md) |
 | 1st Client Deployment Feedback | [13/09/2024](/wiki/1st%20Client%20Deployment%20Feedback.md) |
+| Demo Video Showcasing Models | [22/09/2024](https://drive.google.com/file/d/1NgjKxZ2MebZubTv0halGT6Sw38w8CbG1/view?usp=sharing) |
 
 
 
@@ -46,6 +47,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
 |--|--|--|--|--|--|--|
 | Seb Model 1 | v1.0.0 | [View](model_training/yolov8s/seb-model-1/seb-model-1.ipynb) | [Roboflow](https://universe.roboflow.com/akfa-beqxl/safety-rd-v1/dataset/1) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/Ed6bBdoA7JlPpAacTjC66CgBjV40WEpTZFYjura93LDCzQ?e=dVwtta) | [View]() | Doesn't seem to be very good at detecting people far away. This was based off of images taken from one of the construction sites. |
+| Seb PPE Model 1 | v1.0.0 | [View](model_training/yolov8s/seb-model-1/PPE-model-1-train.py) | [Roboflow](https://app.roboflow.com/join/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3Jrc3BhY2VJZCI6IndTNThqQTJWMnNSRU9SNElDM3d0MERUbFBJMzMiLCJyb2xlIjoib3duZXIiLCJpbnZpdGVyIjoiZG1pdHJ5LmtoYWNodW1vdkBnbWFpbC5jb20iLCJpYXQiOjE3MjY5ODE2OTR9.Fn20fK_X09zucumvY8c3k_0-VQxnqQ7bZpzxAoHvVRw) | [Download](https://drive.google.com/file/d/1j4y6Qr86VGYcMqaxP-BNpth3VLKnZLxm/view?usp=sharing) | [View]() | Pretty good at detecting helmets, but not so much at detecting other PPE such as vests and shoes. |
 
 ### YOLOv8n
 | Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
