@@ -20,7 +20,7 @@
 * Item 1 - Training on new data sets
 * Item 2 - Week 9 Presentation Discussion
 
-Meeting open at: 08:15 PM
+Meeting open at: 08:25 PM
 
 ## Item 1 - Training models on new data sets
 * Dim, Ryan and Ethan are still looking for new datasets to lable.
