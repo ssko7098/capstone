@@ -61,6 +61,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | Model | Version | Python Script | Dataset | Weights | Confusion Matrix | Notes |
 |--|--|--|--|--|--|--|
 | Nicko Model 3 | v1.0.0 | [View](model_training/yolov8m/nicko-model-3/nicko-model-3.py) | fmg_data |[Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/Ee6LvIjE9ohJrdNtMHDpRA0B2MkoZ4tuikwGm11E_8j5YA?e=skIDGC) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EXibqUfDnO5IjZ6lJ5BwqEgB24Hq3mTpGvoQX8kheda2MQ?e=5P9vJZ) | The initial YOLOv8m model achieved a 78% probability in detecting people. However, when tested on Cian's external images, the model only detected cranes, indicating potential issues with generalisation to unseen data. |
+| Nicko Model 4 | v1.0.0 | [View](model_training/yolov8m/nicko-model-4/nicko-model-4.py) | fmg_data |[Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/nheb2621_uni_sydney_edu_au/EfBk98-MQVdGgK074_Oh2QIBC57nBIj7-d2PevLmPfTwOA?e=ndyUm9) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EVLPzWz2YXNHlqCwqG8GFtcBkOjcqcoZjXAzfMdWpdOong?e=bSEAx6) | Trained using a new custom Roboflow dataset focused on PPE as per clients instructions. High normalised detection accuracy for vests (96%), helmets (94%), boots (92%), and gloves (89%). Poor performance detecting goggles  (6%). |
 
 ## Model Inference
 Please follow the [Model Inference](test/model-inference/model_inference.ipynb) guide.
