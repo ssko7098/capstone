@@ -12,6 +12,7 @@ This page contains a list of all meetings conducted throughout the project.
 | Week 6 Client Meeting | 02/09/2024 | XX:XX PM | XX:XX PM |  |
 | Week 7 Client Meeting | 09/09/2024 | 17:40 PM | 17:55 PM | [Minutes](/wiki/minutes/Week-7/20240909-ClientMeeting.md) |
 | Week 8 Client Meeting | 17/09/2024 | N/A | N/A | [Minutes](wiki/minutes/Week-8/20240916-ClientMeeting.md) |
+| Week 9 Client Meeting | 23/09/2024 | 17:40 | 18:00 | [Minutes](wiki/minutes/Week-9/20240923-ClientMeeting.md) |
 
 ## Out-of-Tutorial Team Meetings
 
