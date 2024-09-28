@@ -26,4 +26,6 @@ train.py:9:8: W0612: Unused variable 'output_file' (unused-variable)
 -----------------------------------
 Your code has been rated at 3.04/10
 
+Action: 
+After fixing the code manually and running Pylint again, the training script was able to get a 10/10 style rating. The fixed code was put onto the 'yolo-and-isc-manual.ipynb' file for team members to use.
 
