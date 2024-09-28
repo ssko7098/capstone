@@ -59,7 +59,7 @@ Specific work that is required for the upcoming week includes:
 | Nicko Heberden | nheb2621 | Starting the Week 4 presentation, finish the Udacity Intro to Pytorch as required by the client|
 
 ## Item 4 - General Business
-N/A
+N/A.
 
 
 Meeting closed at:  10:00 AM
