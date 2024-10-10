@@ -1,10 +1,18 @@
 import os
 import torch
 from ultralytics import YOLO
+import wandb
+from wandb.integration.ultralytics import add_wandb_callback
 
 def main():
+    
+    # Initialize a Weights & Biases run
+    wandb.init(project="SOFT3888 Capstone", job_type="training")
 
     model = YOLO("yolov8m.pt")
+
+    # Add W&B Callback for Ultralytics
+    add_wandb_callback(model, enable_model_checkpointing=True)
 
     if torch.cuda.is_available():
         device = [i for i in range(torch.cuda.device_count())]
@@ -15,17 +23,21 @@ def main():
 
 
     # Start training
-    results = model.train(data="data.yaml",
-                            epochs=100,
-                            imgsz=1024,
-                            batch=48,
-                            device=[0,1],
-                            save=True,
-                            cache=True,                    # Cache images for faster training
-                            verbose=True,                  # Verbose output for training insights
-                            )
+    model.train(data="data.yaml",
+                epochs=100,
+                imgsz=1024,
+                batch=48,
+                device=device,
+                save=True,
+                cache=True,                    
+                verbose=True,                  
+                )
 
-    results = model.val()
+    model.val()
+
+    # Finalize the W&B Run
+    wandb.finish()
+
     model.export()
 
 
