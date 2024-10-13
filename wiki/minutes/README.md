@@ -24,7 +24,8 @@ This page contains a list of all meetings conducted throughout the project.
 | Week 5 Meeting | 29/08/2024 | 08:00 PM | 08:40 PM | [Minutes](/wiki/minutes/Week-5/20240829-TeamMeeting.md) |
 | Week 6 Meeting | 5/09/2024 | 08:00 PM | 08:40 PM | [Minutes](/wiki/minutes/Week-6/20240905-TeamMeeting.md) |
 | Week 7 Meeting | 12/09/2024 | XX:XX PM | XX:XX PM |  |
-| Week 8 Meeting | 19/09/2024 | 08:00 PM | 08:25 PM | [Minutes](/wiki/minutes/Week-8/20240919-TeamMeeting.md) |
+| Week 8 Meeting | 19/09/2024 | 08:00 PM | 08:20 PM | [Minutes](/wiki/minutes/Week-8/20240919-TeamMeeting.md) |
+| Week 8 Meeting | 26/09/2024 | 08:00 PM | 08:20 PM | [Minutes](/wiki/minutes/Week-9/20240926-TeamMeeting.md) |
 
 ## Tutor Meetings
 

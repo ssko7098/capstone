@@ -32,4 +32,4 @@ Meeting open at: 08:25 PM
 * The team wanted to discuss what to include in our action plan for the remainder of the semester. This was needed to update user stories for the presentation timeline. 
 
 
-Meeting closed at:  09:10 AM
+Meeting closed at:  08:20 PM

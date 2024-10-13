@@ -1,6 +1,6 @@
 # Meeting Minutes
 
-**Date:** Monday 16 September 2024
+**Date:** Monday 23 September 2024
 
 **Time:** 17:40
 

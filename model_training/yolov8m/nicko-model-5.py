@@ -16,7 +16,7 @@ def main():
 
     # Start training
     results = model.train(data="data.yaml",
-                            epochs=100,
+                            epochs=70,
                             imgsz=1024,
                             batch=48,
                             device=[0,1],
