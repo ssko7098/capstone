@@ -2,6 +2,11 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
+### ********** ###
+# Getting whites/yellows. Need to adjust the colour ranges for red and orange.
+# Will try a different approach to get the colours.
+### ********** ###
+
 def get_colour(image, bbox):
     """
     Extracts the average colour from a bounding box in an image.
@@ -26,25 +31,35 @@ def classify_colour(avg_colour):
     saturation = avg_colour_hsv[1]
     value = avg_colour_hsv[2]
 
-    print(f"HSV Values: {avg_colour_hsv}")
+    # Define color ranges
+    red_lower1, red_upper1 = np.array([0, 55, 65]), np.array([10, 100, 100])    # Fluorescent red/pink lower range
+    red_lower2, red_upper2 = np.array([160, 150, 200]), np.array([180, 255, 255])  # Fluorescent red/pink upper range
+    green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])  # Fluorescent green
+    blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])  # Fluorescent blue
 
-    ### *** Colour Ranges *** ###
-    red_lower = np.array([136, 87, 111], np.uint8) 
-    red_upper = np.array([180, 255, 255], np.uint8) 
-   
-    green_lower = np.array([25, 52, 72], np.uint8) 
-    green_upper = np.array([102, 255, 255], np.uint8) 
- 
-    blue_lower = np.array([94, 80, 2], np.uint8) 
-    blue_upper = np.array([120, 255, 255], np.uint8) 
+    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255]) # Fluorescent yellow
 
-    ### *** Colour Classification *** ###
-    if (hue >= red_lower[0] and hue <= red_upper[0]) or (hue >= 0 and hue <= 10):
+    orange_lower, orange_upper = np.array([20, 150, 200]), np.array([24, 255, 255])  # Fluorescent orange
+
+    if saturation <= 35 and value >= 120:
+        return 'white'
+
+    if yellow_lower[0] <= hue <= yellow_upper[0] and saturation >= 50 and value >= 50:
+        return 'yellow'
+    
+    if orange_lower[0] <= hue <= orange_upper[0] and saturation >= 50 and value >= 50:
+        return 'orange'
+
+    if ((red_lower1[0] <= hue <= red_upper1[0]) or (red_lower2[0] <= hue <= red_upper2[0])) and saturation >= 50 and value >= 50:
         return 'red'
-    elif hue >= green_lower[0] and hue <= green_upper[0]:
+
+    if green_lower[0] <= hue <= green_upper[0] and saturation >= 50 and value >= 50:
         return 'green'
-    elif hue >= blue_lower[0] and hue <= blue_upper[0]:
+
+    if blue_lower[0] <= hue <= blue_upper[0] and saturation >= 50 and value >= 50:
         return 'blue'
+    
+    return
 
 
 def process_image(model, filename):
