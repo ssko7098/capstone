@@ -26,23 +26,19 @@ def classify_colour(avg_colour):
     saturation = avg_colour_hsv[1]
     value = avg_colour_hsv[2]
 
-    print(f"HSV Values: {avg_colour_hsv}")  # Debugging output
+    print(f"HSV Values: {avg_colour_hsv}")
 
+    ### *** Colour Ranges *** ###
     red_lower = np.array([136, 87, 111], np.uint8) 
     red_upper = np.array([180, 255, 255], np.uint8) 
-  
-    # Set range for green color and  
-    # define mask 
+   
     green_lower = np.array([25, 52, 72], np.uint8) 
     green_upper = np.array([102, 255, 255], np.uint8) 
  
-    # Set range for blue color and 
-    # define mask 
     blue_lower = np.array([94, 80, 2], np.uint8) 
     blue_upper = np.array([120, 255, 255], np.uint8) 
 
-    # now see if the average colour falls in the range of any of the colours
-
+    ### *** Colour Classification *** ###
     if (hue >= red_lower[0] and hue <= red_upper[0]) or (hue >= 0 and hue <= 10):
         return 'red'
     elif hue >= green_lower[0] and hue <= green_upper[0]:
