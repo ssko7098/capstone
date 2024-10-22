@@ -142,14 +142,13 @@ def main():
     """
     Main function to run the YOLOv8 model on a video file and process its frames.
     """
-
     model = YOLO(model_file)
 
     # Load an image
     image_set = [images]
 
     for img in image_set:
-        process_image(model, img)
+        process_results(model, img)
 
     # cv2.imshow('Detection', image)
     # cv2.waitKey(0)
@@ -158,4 +157,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
