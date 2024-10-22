@@ -1,56 +1,69 @@
+"""
+This module processes video to extract the colour of vest & helmet detections. 
+It uses a YOLO model for object detection and OpenCV for image processing.
+"""
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
 
-### ********** ###
-# Getting whites/yellows. Need to adjust the colour ranges for red and orange.
-# Will try a different approach to get the colours.
-### ********** ###
 
 def get_colour(image, bbox):
     """
-    Extracts the average colour from a bounding box in an image.
+    Extract the average colour from a bounding box in an image.
+    
+    Args:
+    image (ndarray): The input image.
+    bbox (list): A list of coordinates defining the bounding box.
+    
+    Returns:
+    ndarray: The average color in the bounding box in BGR format.
     """
     x1, y1, x2, y2 = map(int, bbox)
     roi = image[y1:y2, x1:x2]
-    
+
     # Calculate the average color in the region (BGR format)
     avg_colour_per_row = np.average(roi, axis=0)
     avg_colour = np.average(avg_colour_per_row, axis=0)
-    
+
     return avg_colour
+
 
 def classify_colour(avg_colour):
     """
-    Classifies the average colour into a colour category.
+    Classify the colour based on its HSV values.
+    
+    Args:
+    avg_colour (ndarray): The average BGR color values.
+    
+    Returns:
+    str: The classified color as a string ('white', 'yellow', 'orange', 'red', 
+          'green', 'blue') or None if it doesn't match any defined color.
     """
     avg_colour_bgr = np.uint8([[avg_colour]])  # Convert to uint8 for OpenCV function
     avg_colour_hsv = cv2.cvtColor(avg_colour_bgr, cv2.COLOR_BGR2HSV)[0][0]
 
-    hue = avg_colour_hsv[0]
-    saturation = avg_colour_hsv[1]
-    value = avg_colour_hsv[2]
+    hue, saturation, value = avg_colour_hsv
 
     # Define color ranges
-    red_lower1, red_upper1 = np.array([0, 55, 65]), np.array([10, 100, 100])    # Fluorescent red/pink lower range
-    red_lower2, red_upper2 = np.array([160, 150, 200]), np.array([180, 255, 255])  # Fluorescent red/pink upper range
-    green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])  # Fluorescent green
-    blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])  # Fluorescent blue
-
-    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255]) # Fluorescent yellow
-
-    orange_lower, orange_upper = np.array([20, 150, 200]), np.array([24, 255, 255])  # Fluorescent orange
+    red_lower1, red_upper1 = np.array([0, 55, 65]), np.array([10, 100, 100])
+    red_lower2, red_upper2 = np.array([160, 150, 200]), np.array([180, 255, 255])
+    green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])
+    blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])
+    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255])
+    orange_lower, orange_upper = np.array([20, 150, 200]), np.array([24, 255, 255])
 
     if saturation <= 35 and value >= 120:
         return 'white'
 
     if yellow_lower[0] <= hue <= yellow_upper[0] and saturation >= 50 and value >= 50:
         return 'yellow'
-    
+
     if orange_lower[0] <= hue <= orange_upper[0] and saturation >= 50 and value >= 50:
         return 'orange'
 
-    if ((red_lower1[0] <= hue <= red_upper1[0]) or (red_lower2[0] <= hue <= red_upper2[0])) and saturation >= 50 and value >= 50:
+    if ((red_lower1[0] <= hue <= red_upper1[0]) or
+        (red_lower2[0] <= hue <= red_upper2[0])) and saturation >= 50 and value >= 50:
         return 'red'
 
     if green_lower[0] <= hue <= green_upper[0] and saturation >= 50 and value >= 50:
@@ -58,12 +71,23 @@ def classify_colour(avg_colour):
 
     if blue_lower[0] <= hue <= blue_upper[0] and saturation >= 50 and value >= 50:
         return 'blue'
+
+    return None
+
+
+def process_results(model, filename):
+    """
+    Process the detection results and annotate the image with bounding boxes.
     
-    return
-
-
-def process_image(model, filename):
-    image = cv2.imread(filename)
+    Args:
+    model: The YOLO detection model.
+    filename (str): The filename of the image to process.
+    
+    Returns:
+    None: Annotates and displays the image.
+    """
+    image = cv2.imread(f'inference-images/{filename}.jpg')
+    print(f'Shape: ', image.shape)
 
     # Perform detection
     results = model(image)
@@ -73,8 +97,8 @@ def process_image(model, filename):
         for bbox in result.boxes:
             # Extract bounding box coordinates and convert to NumPy array
             xyxy = bbox.xyxy[0].cpu().numpy()
-            x1, y1, x2, y2 = xyxy  # Unpack bounding box coordinates
-            
+            x1, y1, x2, y2 = xyxy  # Unpack the bounding box coordinates
+
             # Get the label name from the model
             label = model.names[int(bbox.cls[0])]
 
@@ -82,47 +106,64 @@ def process_image(model, filename):
             colour = classify_colour(avg_colour)
 
             if label == 'vest':
-                colour_range = ['orange', 'purple', 'white', 'yellow']
-                
-                if colour in colour_range:
+                colours = ['orange', 'purple', 'white', 'yellow']
+
+                if colour in colours:
                     cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(image, f'{colour}-{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-                else: # Not in colour range
+                    cv2.putText(image, f'{colour}-{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                else:
                     cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(image, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                    cv2.putText(image, f'{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
 
 
             if label == 'helmet':
-                colour_range = ['blue', 'red', 'white', 'green', 'orange']
-            
-                if colour in colour_range:
+                colours = ['blue', 'red', 'white', 'green', 'orange']
+
+                if colour in colours:
                     cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(image, f'{colour}-{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-                else: # Not in colour range
+                    cv2.putText(image, f'{colour}-{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                else:
                     cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(image, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-            
-            else: # Classes that are not helmet or vest, label them as they are
+                    cv2.putText(image, f'{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+
+            else:
                 cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                cv2.putText(image, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-
-
+                cv2.putText(image, f'{label}', (int(x1), int(y1) - 10),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
 
     # export the image
-    # cv2.imwrite(f'output-images/{filename}.jpg', image)
+    cv2.imwrite(f'output-images/{filename}.jpg', image)
 
 def main():
-    model = YOLO(model_file)
+    """
+    Main function to run the YOLOv8 model on a video file and process its frames.
+    """
 
-    # Load an image
-    image_set = ['image1', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7']
+    model = YOLO('retrain.pt')
 
-    for img in image_set:
-        process_image(model, img)
+    video_path = 'video.mp4'
+    cap = cv2.VideoCapture(video_path)
 
-    # cv2.imshow('Detection', image)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    # Define video codec and create VideoWriter object
+    output_video_path = 'out.mp4'
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
+
+    # Process each frame of the video
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+    model(frame) # Run inference on the frame
+
 
 if __name__ == '__main__':
     main()
