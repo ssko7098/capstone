@@ -33,12 +33,12 @@ def classify_colour(avg_colour):
     value = avg_colour_hsv[2]
 
     # Define color ranges
-    red_lower1, red_upper1 = np.array([0, 70, 50]), np.array([10, 255, 255]) # Red lower range
-    red_lower2, red_upper2 = np.array([170, 70, 50]), np.array([180, 255, 255]) # Red upper range
+    red_lower1, red_upper1 = np.array([0, 70, 50]), np.array([10, 255, 255])
+    red_lower2, red_upper2 = np.array([170, 70, 50]), np.array([180, 255, 255])
 
-    green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])  # Fluorescent green    
-    blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])  # Fluorescent blue
-    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255]) # Fluorescent yellow
+    green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])
+    blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])
+    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255])
     orange_lower, orange_upper = np.array([10, 100, 100]), np.array([25, 255, 255])
     
     # Classify colour
@@ -95,9 +95,6 @@ def process_image(model, filename):
             else: # Other labels
                 cv2.rectangle(image, (int(x1), int(y1)), (int(x2), int(y2)), (0, 0, 255), 2)
                 cv2.putText(image, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
-
-
-
 
     # export the image
     # cv2.imwrite(f'output-images/{filename}.jpg', image)
