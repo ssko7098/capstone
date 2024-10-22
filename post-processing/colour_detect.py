@@ -143,27 +143,19 @@ def main():
     Main function to run the YOLOv8 model on a video file and process its frames.
     """
 
-    model = YOLO('retrain.pt')
+    model = YOLO(model_file)
 
-    video_path = 'video.mp4'
-    cap = cv2.VideoCapture(video_path)
+    # Load an image
+    image_set = [images]
 
-    # Define video codec and create VideoWriter object
-    output_video_path = 'out.mp4'
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
+    for img in image_set:
+        process_image(model, img)
 
-    # Process each frame of the video
-    while cap.isOpened():
-        ret, frame = cap.read()
-        if not ret:
-            break
-
-    model(frame) # Run inference on the frame
+    # cv2.imshow('Detection', image)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
     main()
+    

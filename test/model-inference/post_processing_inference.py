@@ -1,7 +1,3 @@
-# pylint: disable=E1101
-# pylint: disable=W1309
-# pylint: disable=R0911
-
 """
 This script incorporates video inference and post-processing to
 detect the colours of Helmets & Vests in a video.
