@@ -40,6 +40,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 | 1st Client Deployment Feedback | [13/09/2024](/wiki/1st%20Client%20Deployment%20Feedback.md) |
 | Demo Video Showcasing Models | [22/09/2024](https://drive.google.com/file/d/1NgjKxZ2MebZubTv0halGT6Sw38w8CbG1/view?usp=sharing) |
 | Complete Model Overview | [20/10/2024](model_training/overview.md)
+| Final Client Deployment W&B Report | [23/10/2024](https://wandb.ai/sebastian-skontos-university-of-sydney/Ultralytics/reports/Final-Client-Deployment--Vmlldzo5ODQ2MTI4?accessToken=1d583be5ivrb5qcbscmaqcxg229y3mklo46007ngofs8sfgj1vnw4yc9zodj3pbe) |
 
 
 
