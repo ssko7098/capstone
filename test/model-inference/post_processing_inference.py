@@ -114,7 +114,7 @@ def process_results(model, results, frame):
                     cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
 
-            elif label.lower() == ('person' or 'boots'):
+            else:
                 cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 1)
                 cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 1)
