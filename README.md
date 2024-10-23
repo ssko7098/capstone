@@ -49,6 +49,7 @@ Training scripts are to follow the PEP-8 style guide for python code. This is do
 |--|--|--|--|--|
 Best Person | [Download](model_training/yolov8n/seb-model-2/seb-model-2.py) | fmg_data_2 | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/EaDTFjmQIhVCrwj6wdSA1SABvlqnRweiH815twrWVovzZw?e=ElDYwE) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/nheb2621_uni_sydney_edu_au/EeTP-dYUz4hEg3IxaFJvmJcBI0RgH47rAVLOKApd_YSjXA?e=2A2CkR) |
 Seb's Best PPE | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/EY-bxs8K-IJPuvlTwoBEqbcB9gDfWrPezFjKTOsPlYJ8hA?e=1PQZhN) | [Custom Roboflow](https://universe.roboflow.com/sharedcapstone/soft3888) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/ssko7098_uni_sydney_edu_au/EXoGeHja9M9MmVdcBtblWo8B-apuwxIr9gDW_xS0zEP8Cg?e=xXhJUJ) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/ssko7098_uni_sydney_edu_au/EfuqxNBXuJpJtA51hpjk1TUBlMP1rSKTmjr5Kqytajt4VQ?e=9gohHS) |
+Otavio's Best PPE | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/oper7179_uni_sydney_edu_au/EcNysiCF_kZPuSIp-UPWrU4BwXQnzy9e0jDG4Bsy3H2RPw?e=SaxVRT) | [Custom Roboflow](https://universe.roboflow.com/sharedcapstone/soft3888) | [Download](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/oper7179_uni_sydney_edu_au/EcdYNcA2cQtEhn9iQW5jsfEBDMlh2gNA9qy42kTQ4tNONQ?e=heKRQ5) | [View](https://unisydneyedu-my.sharepoint.com/:i:/g/personal/oper7179_uni_sydney_edu_au/EW-zAzsprVBLs2D77_UK9U8B1oANGMmaK0fWk_YvoUXhMQ?e=TH9n3c) |
 
 
 
