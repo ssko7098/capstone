@@ -1,55 +1,67 @@
+"""
+This script incorporates video inference and post-processing to
+detect the colours of Helmets & Vests in a video.
+"""
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
 
-"""
-This script incorporates video inference and post-processing to detect and classify objects in a video.
-"""
-
 def get_colour(image, bbox):
     """
-    Extracts the average colour from a bounding box in an image.
+    Extract the average colour from a bounding box in an image.
+    
+    Args:
+    image (ndarray): The input image.
+    bbox (list): A list of coordinates defining the bounding box.
+    
+    Returns:
+    ndarray: The average color in the bounding box in BGR format.
     """
     x1, y1, x2, y2 = map(int, bbox)
     roi = image[y1:y2, x1:x2]
-    
+
     # Calculate the average color in the region (BGR format)
     avg_colour_per_row = np.average(roi, axis=0)
     avg_colour = np.average(avg_colour_per_row, axis=0)
-    
+
     return avg_colour
 
 def classify_colour(avg_colour):
     """
-    Classifies the average colour of an object into a colour category.
+    Classify the colour based on its HSV values.
+    
+    Args:
+    avg_colour (ndarray): The average BGR color values.
+    
+    Returns:
+    str: The classified color as a string ('white', 'yellow', 'orange', 'red', 
+          'green', 'blue') or None if it doesn't match any defined color.
     """
-    avg_colour_bgr = np.uint8([[avg_colour]])
+    avg_colour_bgr = np.uint8([[avg_colour]])  # Convert to uint8 for OpenCV function
     avg_colour_hsv = cv2.cvtColor(avg_colour_bgr, cv2.COLOR_BGR2HSV)[0][0]
 
-    # Extract HSV values
-    hue = avg_colour_hsv[0]
-    saturation = avg_colour_hsv[1]
-    value = avg_colour_hsv[2]
+    hue, saturation, value = avg_colour_hsv
 
     # Define color ranges
     red_lower1, red_upper1 = np.array([0, 55, 65]), np.array([10, 100, 100])
     red_lower2, red_upper2 = np.array([160, 150, 200]), np.array([180, 255, 255])
     green_lower, green_upper = np.array([35, 150, 200]), np.array([85, 255, 255])
     blue_lower, blue_upper = np.array([90, 150, 200]), np.array([130, 255, 255])
-    yellow_lower, yellow_upper = np.array([20, 150, 100]), np.array([35, 255, 255])
-    orange_lower, orange_upper = np.array([20, 150, 200]), np.array([24, 255, 255])  # TODO: Update orange range.
+    yellow_lower, yellow_upper = np.array([20, 150, 200]), np.array([35, 255, 255])
+    orange_lower, orange_upper = np.array([20, 150, 200]), np.array([24, 255, 255])
 
-    # Classify the colour based on the HSV values
     if saturation <= 35 and value >= 120:
         return 'white'
 
     if yellow_lower[0] <= hue <= yellow_upper[0] and saturation >= 50 and value >= 50:
         return 'yellow'
-    
+
     if orange_lower[0] <= hue <= orange_upper[0] and saturation >= 50 and value >= 50:
         return 'orange'
 
-    if ((red_lower1[0] <= hue <= red_upper1[0]) or (red_lower2[0] <= hue <= red_upper2[0])) and saturation >= 50 and value >= 50:
+    if ((red_lower1[0] <= hue <= red_upper1[0]) or
+        (red_lower2[0] <= hue <= red_upper2[0])) and saturation >= 50 and value >= 50:
         return 'red'
 
     if green_lower[0] <= hue <= green_upper[0] and saturation >= 50 and value >= 50:
@@ -57,8 +69,8 @@ def classify_colour(avg_colour):
 
     if blue_lower[0] <= hue <= blue_upper[0] and saturation >= 50 and value >= 50:
         return 'blue'
-    
-    return
+
+    return None
 
 
 
@@ -69,14 +81,14 @@ def process_results(model, results, frame):
     for result in results:
         for bbox in result.boxes:
             xyxy = bbox.xyxy[0].cpu().numpy() # Bounding box coordinates
-            x1, y1, x2, y2 = xyxy 
-            
+            x1, y1, x2, y2 = xyxy
+
             # Get the label name from the model
             label = model.names[int(bbox.cls[0])]
 
             avg_colour = get_colour(frame, (x1, y1, x2, y2))
             colour = classify_colour(avg_colour)
-            
+
             if label.lower() == 'goggles':
                 continue
 
@@ -84,28 +96,36 @@ def process_results(model, results, frame):
                 colours = ['orange', 'purple', 'white', 'yellow']
                 if colour in colours:
                     cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(frame, f'{colour}-{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                    cv2.putText(frame, f'{colour}-{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
                 else:
                     cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                    cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
 
             elif label.lower() == 'helmet':
                 colours = ['blue', 'red', 'white', 'green', 'orange', 'yellow']
                 if colour in colours:
                     cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(frame, f'{colour}-{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+                    cv2.putText(frame, f'{colour}-{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
                 else:
                     cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-                    cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
-            
+                    cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+
             elif label.lower() == ('person' or 'boots'):
                 cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 1)
-                cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 1)
+                cv2.putText(frame, f'{label}', (int(x1), int(y1) - 10),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 1)
 
     return frame
 
 
 def main():
+    """
+    Main function to run the YOLOv8 model on a video file and process its frames.
+    """
     model = YOLO(f'{model_name}.pt')
 
     video_path = f'{video_name}.mp4'
@@ -138,4 +158,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
