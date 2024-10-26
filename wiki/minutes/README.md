@@ -11,8 +11,8 @@ This page contains a list of all meetings conducted throughout the project.
 | Week 5 Client Meeting | 26/08/2024 | 16:00 PM | 16:20 PM | [Minutes](/wiki/minutes/Week-5/20240826-ClientMeeting.md) |
 | Week 6 Client Meeting | 02/09/2024 | XX:XX PM | XX:XX PM |  |
 | Week 7 Client Meeting | 09/09/2024 | 17:40 PM | 17:55 PM | [Minutes](/wiki/minutes/Week-7/20240909-ClientMeeting.md) |
-| Week 8 Client Meeting | 17/09/2024 | N/A | N/A | [Minutes](wiki/minutes/Week-8/20240916-ClientMeeting.md) |
-| Week 9 Client Meeting | 23/09/2024 | 17:40 | 18:00 | [Minutes](wiki/minutes/Week-9/20240923-ClientMeeting.md) |
+| Week 8 Client Meeting | 17/09/2024 | N/A | N/A | [Minutes](Week-8/20240916-ClientMeeting.md) |
+| Week 9 Client Meeting | 23/09/2024 | 17:40 | 18:00 | [Minutes](Week-9/20240923-ClientMeeting.md) |
 
 ## Out-of-Tutorial Team Meetings
 
@@ -37,21 +37,21 @@ This page contains a list of all meetings conducted throughout the project.
 | Tutorial Week 5 | 27/08/2024 | 09:00 AM | 9:20 AM | [Minutes](/wiki/minutes/Week-5/20240827-TutorMeeting.md) |
 | Tutorial Week 6 | 3/09/2024 | 09:00 AM | 9:20 AM | [Minutes](/wiki/minutes/Week-6/20240903-TutorMeeting.md) |
 | Tutorial Week 7 | 10/09/2024 | 08:53 AM | 09:00 AM | [Minutes](/wiki/minutes/Week-7/20240910-TutorMeeting.md) |
-| Tutorial Week 8 | 17/09/2024 | 08:30 AM | 08:45 AM | [Minutes](wiki/minutes/Week-8/20240917-TutorMeeting.md) |
-| Tutorial Week 9 | 24/09/2024 | 08:50 AM | 09:00 AM | [Minutes](wiki/minutes/Week-9/20240924-TutorMeeting.md) |
-| Tutorial Week 11 | 15/10/2024 | 08:30 AM | 09:00 AM | [Minutes](wiki/minutes/Week-11/20241015-TutorMeeting.md) |
+| Tutorial Week 8 | 17/09/2024 | 08:30 AM | 08:45 AM | [Minutes](Week-8/20240917-TutorMeeting.md) |
+| Tutorial Week 9 | 24/09/2024 | 08:50 AM | 09:00 AM | [Minutes](Week-9/20240924-TutorMeeting.md) |
+| Tutorial Week 11 | 15/10/2024 | 08:30 AM | 09:00 AM | [Minutes](Week-11/20241015-TutorMeeting.md) |
 
 
 ## In-Tutorial Meetings
 
 | Description | Date | Time Start | Time End | Minutes |
 |--|--|--|--|--|
-| Tutorial Week 2 | 06/08/2024 | 08:00 AM | XX:XX PM | [Minutes](/wiki/minutes/Week-2/2024.08.06%20-%20Tutorial%20Minutes.md) |
-| Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-3/20240813-TutorialMeeting.md) |
-| Tutorial Week 4 | 20/08/2024 | 09:40 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-4/20240820-TutorialMeeting.md) |
-| Tutorial Week 5 | 27/08/2024 | 10:00 AM | 10:30 AM | [Minutes](/wiki/minutes/Week-5/20240827-TutorialMeeting.md) |
-| Tutorial Week 6 | 03/09/2024 | 9:30 AM | 10:00 AM | [Minutes](/wiki/minutes/Week-6/20240903-TutorialMeeting.md) |
-| Tutorial Week 7 | 10/09/2024 | 09:00 AM | 09:14 AM | [Minutes](/wiki/minutes/Week-7/20240910-TeamMeeting.md) |
-| Tutorial Week 8 | 17/09/2024 | 08:45 AM | 09:10 AM | [Minutes](wiki/minutes/Week-8/20240917-TeamMeeting.md) |
-| Tutorial Week 9 | 17/09/2024 | 08:30 AM | 08:50 AM | [Minutes](wiki/minutes/Week-9/20240924-TeamMeeting.md) |
-| Tutorial Week 11 | 15/10/2024 | 09:00 AM | 09:20 AM | [Minutes](wiki/minutes/Week-11/20241015-TeamMeeting.md) |
+| Tutorial Week 2 | 06/08/2024 | 08:00 AM | XX:XX PM | [Minutes](Week-2/2024.08.06%20-%20Tutorial%20Minutes.md) |
+| Tutorial Week 3 | 13/08/2024 | 09:30 AM | 10:00 AM | [Minutes](Week-3/20240813-TutorialMeeting.md) |
+| Tutorial Week 4 | 20/08/2024 | 09:40 AM | 10:00 AM | [Minutes](Week-4/20240820-TutorialMeeting.md) |
+| Tutorial Week 5 | 27/08/2024 | 10:00 AM | 10:30 AM | [Minutes](Week-5/20240827-TutorialMeeting.md) |
+| Tutorial Week 6 | 03/09/2024 | 9:30 AM | 10:00 AM | [Minutes](Week-6/20240903-TutorialMeeting.md) |
+| Tutorial Week 7 | 10/09/2024 | 09:00 AM | 09:14 AM | [Minutes](Week-7/20240910-TeamMeeting.md) |
+| Tutorial Week 8 | 17/09/2024 | 08:45 AM | 09:10 AM | [Minutes](Week-8/20240917-TeamMeeting.md) |
+| Tutorial Week 9 | 17/09/2024 | 08:30 AM | 08:50 AM | [Minutes](Week-9/20240924-TeamMeeting.md) |
+| Tutorial Week 11 | 15/10/2024 | 09:00 AM | 09:20 AM | [Minutes](Week-11/20241015-TeamMeeting.md) |
